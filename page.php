@@ -31,7 +31,7 @@ if ( 'home' == $action && !$auto_check ) :
 		<!-- a href="" id="xmlrpc_validator_advanced_settings_switcher" onclick="xml_rpc_validator.toggle_advanced_settings( ); return false;">More Options</a -->
 		<fieldset id="xmlrpc_validator_advanced_settings" style="margin-top:10px;">
 			<p>
-			<label for="user_agent_selection"><?php _e('User Agent'); ?></label>
+			<label for="user_agent_selection"><?php _e('User Agent'); ?></label> <br>
 				<select id="user_agent_selection">
 				  <?php if (!isset($_REQUEST['user_agent'])) { ?>
 				  <option value="custom">Custom User Agent</option>
@@ -58,11 +58,11 @@ if ( 'home' == $action && !$auto_check ) :
 				<input type="checkbox" name="enable_401_auth" value="yes" />
 			</p>
 			<p style="margin-top:10px">
-				<label for="HTTP_auth_user_login"><?php _e('Username'); ?></label>
+				<label for="HTTP_auth_user_login"><?php _e('Username'); ?></label> <br>
 				<input type="text" name="HTTP_auth_user_login" id="HTTP_auth_user_login" class="input" value="" size="20" tabindex="200" />
 			</p>
 			<p style="margin-top:10px;margin-bottom:10px;">
-				<label for="HTTP_auth_user_pass"><?php _e('Password'); ?></label>
+				<label for="HTTP_auth_user_pass"><?php _e('Password'); ?></label> <br>
 				<input type="password" name="HTTP_auth_user_pass" id="HTTP_auth_user_pass" class="input" value="" size="20" tabindex="210" />
 			</p>
 		</fieldset>
