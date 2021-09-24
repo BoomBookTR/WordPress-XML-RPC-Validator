@@ -2,7 +2,7 @@
 
 WordPress plugin that checks the validity of the XML-RPC Endpoint of WordPress sites.
 
-If you're having throubles login into your site by using one of the WordPress mobile apps, this plugin can help you to find the real cause of the issue.  A live version of the plugin is deployed on the following site: http://xmlrpc.eritreo.it
+If you're having throubles login into your site by using one of the WordPress mobile apps, this plugin can help you to find the real cause of the issue.  A live version of the plugin is deployed on the following site: http://xmlrpc.epizy.com
 Just insert your address there, and a check will be stared against your site. (No data will be collected on our side. I completely delete the logs on the server without even taking a look at them).
 
 **Advanced usage**
@@ -10,7 +10,7 @@ Just insert your address there, and a check will be stared against your site. (N
 It's possible to launch the validator by passing parameters to it.
 
 Available parameter are _site_url_ and _user_agent_.
-EX: http://xmlrpc.eritreo.it?user_agent=my-user-agent-here&site_url=daniloercoli.com
+EX: http://xmlrpc.epizy.com?user_agent=my-user-agent-here&site_url=daniloercoli.com
 
 **Note**
 
