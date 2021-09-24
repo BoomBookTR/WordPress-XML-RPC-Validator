@@ -66,7 +66,6 @@ if ( 'home' == $action && !$auto_check ) :
 				<input type="password" name="HTTP_auth_user_pass" id="HTTP_auth_user_pass" class="input" value="" size="20" tabindex="210" />
 			</p>
 		</fieldset>
-		
 		<p class="submit_button">
 			<input type="submit" name="wp-submit" id="wp-submit" value="<?php esc_attr_e('Check');?>" />
 		</p>
